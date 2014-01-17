@@ -10,6 +10,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+img.friend {
+	width: 140px;
+	height: 140px;
+}
+
 @media (min-width: 768px) {
 	#cover {
 		height: 500px;
