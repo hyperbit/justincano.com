@@ -1,0 +1,28 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#cover {
+	background-size: 100% auto;
+	background-image:url('img/cover/dusk.jpg');
+	background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+	#cover {
+		height: 500px;
+		background-image:url('img/cover/ucr-sign.jpg');
+	}
+}
+
+
+
+
+img.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
