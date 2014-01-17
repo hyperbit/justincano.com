@@ -210,7 +210,7 @@
 	<!-- BEGIN PROJECTS -->
         <div class="row featurette">
 		<div class="col-md-7">
-			<h2 class="featurette-heading">Projects <span class="text-muted">See for yourself.</span></h2>
+			<h2 class="featurette-heading" style="margin-top:20px;">Projects <span class="text-muted">See for yourself.</span></h2>
 		</div>
 	
 		<div class="col-md-10">
@@ -344,7 +344,7 @@
 				$twitteruser = "rmacaisa";
 				include "twifpic.php";
 			?>
-			<img class="img-circle friend" src="<?php echo $pic ?>">
+			<a href="http://robertmacaisa.com"><img class="img-circle friend" src="<?php echo $pic ?>"></a>
 			<h2>Robert Macaisa<br><span class="text-muted">Photographer. Cinematographer.</span></h2>
 		</div>
 		<!-- END FRIENDS -->
