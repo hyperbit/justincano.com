@@ -347,8 +347,17 @@
 			<a href="http://robertmacaisa.com"><img class="img-circle friend" src="<?php echo $pic ?>"></a>
 			<h2>Robert Macaisa<br><span class="text-muted">Photographer. Cinematographer.</span></h2>
 		</div>
-		<!-- END FRIENDS -->
+
+		<div class="col-lg-4">
+			<?php
+				$twitteruser = "jenni_mariko";
+				include "twifpic.php";
+			?>
+			<a href="http://littlemissjennaayy.com/"><img class="img-circle friend" src="<?php echo $pic ?>"></a>
+			<h2>Jenni Okita<br><span class="text-muted">Foodie. Blogger.</span></h2>
+		</div>
 	</div>
+	<!-- END FRIENDS -->
 
         <!-- /END THE FEATURETTES -->
 
