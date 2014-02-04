@@ -1,3 +1,6 @@
 [submodule "twitteroauth"]
 	path = twitteroauth
 	url = https://github.com/jcvno/twitteroauth.git
+[submodule "leadnozzle"]
+	path = leadnozzle
+	url = https://github.com/jcvno/leadnozzle.git
