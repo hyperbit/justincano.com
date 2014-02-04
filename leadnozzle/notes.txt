@@ -1,0 +1,10 @@
+COLORS
+light green: #A2ED3A rgb(162,237,58)
+dark green: #2E972E rgb(46,151,46)
+blue: #166BAB rgb(22,107,171)
+dark blue: #23408E rgb(35,64,142)
+white: #FFF
+jumbotron: #4E98F7 rgb(78,152,247)
+navbar bg color: rgb(47,42,49)
+form-bg: #A8DDFD rgb(168,221,253)
+panel-bg: #5CC0FC rgb(92,192,252)

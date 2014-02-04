@@ -1,0 +1,63 @@
+.body {
+	padding-top: 70px;
+}
+
+button > a , button > a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* Jumbotron
+================================= */
+
+.jumbotron {
+	background-image: url('../img/main-bg.png');
+	background-repeat: no-repeat;
+	background-position:  100% 76%;
+	padding: 110px 0 140px 0;
+	margin-bottom: 70px;
+}
+
+.jumbotron strong, em {
+	color: #A2ED3A;
+}
+
+/* Logos & Icons
+================================= */
+
+.main-logo {
+	width: 124px;
+	height: 34px;
+	margin-top: 5px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/main-logo.png') no-repeat;
+	background-size: 100%;
+}
+
+.glyphicon {
+	font-size: 3em;
+	color: #89C831;
+}
+
+/* Lists
+================================= */
+
+.home-list {
+	list-style: none;
+}
+
+.link-list, .link-list a {
+	list-style: none;
+	color: LightGray;
+	padding-top: 60px;
+}
+
+/* Footer
+================================= */
+
+footer {
+	color: LightGray;
+}
