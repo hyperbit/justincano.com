@@ -17,6 +17,10 @@
 	<!-- Custom styles for this template -->
 	<link href="jumbotron.css" rel="stylesheet">
 	<link href="carousel.css" rel="stylesheet">
+    <script>
+    document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';
+    </script>
+
 	
 	<!-- Just for debugging purposes. Don't actually copy this line! -->
 	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
