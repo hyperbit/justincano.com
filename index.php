@@ -243,14 +243,14 @@
      					<h3 class="panel-title"><a href="https://bitbucket.org/jcano001"><button type="button" class="btn btn-primary"><span class="col-md-1">Bitbucket</span></button></a> <span class="text-muted">@jcano001 <span class="badge pull-right">academia</span></span></h3>
      				</div>
 					
-					<div class="list-group">
+     				<div class="panel-body">
+						<div class="list-group">
      						<a href="https://bitbucket.org/jcano001/cs177_modeling-and-simulation" class="list-group-item">
      							<h4 class="list-group-item-heading">Modeling and Simulation <span class="text-muted">Winter 2014</span></h4>
      							<p class="list-group-item-text">A repository containing all project files for CS 177: Modeling and Simulation</p>
      						</a>
      					</div>
 					
-     				<div class="panel-body">
      					<div class="list-group">
      						<a href="https://bitbucket.org/jcano001/cs100_software-construction" class="list-group-item">
      							<h4 class="list-group-item-heading">Software Construction <span class="text-muted">Fall 2013</span></h4>
