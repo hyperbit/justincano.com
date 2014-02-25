@@ -234,9 +234,7 @@
      							<p class="list-group-item-text">A novice iPhone development app, as taught by Team Treehouse</p>
      						</a>
      					</div>
-     				</div>
-					
-     				<div class="panel-body">
+
      					<div class="list-group">
      						<a href="https://github.com/jcvno/zetabase" class="list-group-item">
      							<h4 class="list-group-item-heading">zetabase <span class="text-muted">Website (deprecated)</span></h4>
