@@ -270,6 +270,13 @@
      							<p class="list-group-item-text">A repository containing all project files for CS 130: Computer Graphics</p>
      						</a>
      					</div>
+						
+						<div class="list-group">
+     						<a href="https://bitbucket.org/jcano001/cs177_modeling-and-simulation" class="list-group-item">
+     							<h4 class="list-group-item-heading">Modeling and Simulation <span class="text-muted">Winter 2013</span></h4>
+     							<p class="list-group-item-text">A repository containing all project files for CS 177: Modeling and Simulation</p>
+     						</a>
+     					</div>
      				</div>
      			</div>
      		</div>
