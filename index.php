@@ -226,11 +226,24 @@
      				<div class="panel-heading">
      					<h3 class="panel-title"><a href="https://github.com/jcvno"><button type="button" class="btn btn-info"><span class="col-md-1">GitHub</span></button></a> <span class="text-muted">@jcvno</span> <span class="badge pull-right">personal</span></h3>
      				</div>
+					
+					<div class="panel-body">
+     					<div class="list-group">
+     						<a href="https://github.com/jcvno/CyrstalBall" class="list-group-item">
+     							<h4 class="list-group-item-heading">CrystalBall <span class="text-muted">iPhone App</span></h4>
+     							<p class="list-group-item-text">A novice iPhone development app, as taught by Team Treehouse</p>
+     						</a>
+     					</div>
+     				</div>
+					
      				<div class="panel-body">
      					<div class="list-group">
      						<a href="https://github.com/jcvno/zetabase" class="list-group-item">
-     							<h4 class="list-group-item-heading">zetabase <span class="text-muted">inactive</span></h4>
-     							<p class="list-group-item-text">User domain space web application for the active members of Zeta Phi Rho, Theta Chapter</p>
+     							<h4 class="list-group-item-heading">zetabase <span class="text-muted">Website (deprecated)</span></h4>
+     							<p class="list-group-item-text">User domain space web application for the active members of Zeta Phi Rho, Theta Chapter
+									<br>
+									This site has been deprecated to a single uniform database used by all chapters of Zeta Phi Rho
+								</p>
      						</a>
      					</div>
      				</div>
