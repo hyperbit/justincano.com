@@ -17,7 +17,7 @@ Hello, World!
 <br>
 Desired temperature is: <?php echo $desiredTemp; ?>
 
-<form name="myForm" action="update_temp.php" method="post" role="form">
+<form name="myForm" action="api/update_temp.php" method="post" role="form">
 	<div class="form-group">
 		<label for="desiredTemp">Change Desired Temperature</label>
 		<input type="text" class="form-control" id="desiredTemp" name="desiredTemp" placeholder="Enter new temp" maxlength="10">
