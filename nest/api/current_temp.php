@@ -1,9 +1,7 @@
 <?php
 	include 'session.php';
-
-	$query = "SELECT currentTemp from schedule";
+	$query = "SELECT currentTemp FROM schedule";
 	$result = mysql_query($query);
-
-	echo $result;
-
+	$currentTemp = mysql_result($result,0);
+	echo $currentTemp;
 ?>
