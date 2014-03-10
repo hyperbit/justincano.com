@@ -22,14 +22,6 @@
     </script>
 
 	
-	<!-- Just for debugging purposes. Don't actually copy this line! -->
-	<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-      <![endif]-->
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
@@ -229,11 +221,11 @@
 					
 					<div class="panel-body">
      					<div class="list-group">
-     						<a href="https://github.com/jcvno/CyrstalBall" class="list-group-item">
-     							<h4 class="list-group-item-heading">CrystalBall <span class="text-muted">iPhone App</span></h4>
-     							<p class="list-group-item-text">A novice iPhone development app, as taught by Team Treehouse</p>
+     						<a href="https://github.com/jcvno/GPA-Calculator" class="list-group-item">
+     							<h4 class="list-group-item-heading">GPA Calculator <span class="text-muted">Web App</span></h4>
+     							<p class="list-group-item-text">A simple web application simple web application to calculate your GPA on a 4.0 scale. Written in Javascript.</p>
      						</a>
-     					</div>
+					</div>
 
      					<div class="list-group">
      						<a href="https://github.com/jcvno/zetabase" class="list-group-item">

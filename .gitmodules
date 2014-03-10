@@ -4,3 +4,9 @@
 [submodule "leadnozzle"]
 	path = leadnozzle
 	url = https://github.com/jcvno/leadnozzle.git
+[submodule "UCR-GPA-Calculator"]
+	path = UCR-GPA-Calculator
+	url = https://github.com/jcvno/UCR-GPA-Calculator.git
+[submodule "GPA-Calculator"]
+	path = GPA-Calculator
+	url = https://github.com/jcvno/GPA-Calculator.git
