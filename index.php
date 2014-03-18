@@ -83,7 +83,7 @@
      				University of California, Riverside, <em>Riverside, CA</em>
      			</div>
      			<div class="col-md-2">
-     				<em>2014</em>
+     				<em>2014 (Projected)</em>
      			</div>
 
      			<div class="col-md-9">
@@ -155,7 +155,7 @@
      						<li>OpenGL</li>
      						<li>JSoup</li>
      						<li>Apache Lucene</li>
-     						<li>Twitter Bootstrap</li>
+     						<li>Twitter REST</li>
      					</ul>
      					<li>Troubleshooting and Debugging</li>
      					<li>Familiar with Windows, Mac, and Linux environments</li>
@@ -177,7 +177,7 @@
      				Software Engineer Intern
      			</div>
      			<div class="col-md-4">
-     				<em>Jun 2013 - Present</em>
+     				<em>Jun 2013 - Sep 2013</em>
      			</div>
      			<div class="col-md-8">
      				<strong>The Party Staff</strong> <em>Los Angeles, CA</em>
