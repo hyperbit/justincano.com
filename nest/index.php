@@ -13,6 +13,7 @@ Desired temperature is: <?php echo $desiredTemp; ?>
 	<div class="form-group">
 		<label for="desiredTemp">Change Desired Temperature</label>
 		<input type="text" class="form-control" id="desiredTemp" name="desiredTemp" placeholder="Enter new temp" maxlength="10">
+		<input type="hidden" name="hasChanged" value="1">
 	</div>
 	<button type="submit">Submit</button>
 	</div>
