@@ -318,6 +318,28 @@
      					</div>
      				</div>
      			</div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Senior Design in Electrical Engineering<br><span class="text-muted">Build a Better Nest [25 weeks]</span></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-7">  
+                            <p>
+                                The topic of study for my Senior Design in Electrical Engineering is the Nest Learning Thermostat, guided by Professor Ping Liang. 
+                                My partner and I have a goal to create a system that behaves much like the Nest does: it learns its user’s indoor temperature preferences 
+                                and automatically sets the temperature on the thermostat. Our Nest is a Raspberry Pi embedded system coded in Python, with state machines executing as 
+                                Python threads. The Pi accepts sensor data gathered by an Arduino Uno microcontroller through wireless serial communication using an XBee standard. 
+                                The Pi also connects to a MySQL database through an API developed in PHP, which web and mobile applications can use to connect to.
+                            </p>
+                            <br>
+                            <a href="http://youtu.be/2TnUDQ8yI0E"><button type="button" class="btn btn-danger">YouTube</button></a>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-thumbnail featurette-image img-responsive" src="img/projects/ee175-senior-design.jpg">
+                        </div>
+                    </div>
+                </div>
      		</div>
      	</div>
      	<!-- END PROJECTS -->
