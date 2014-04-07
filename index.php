@@ -220,6 +220,13 @@
      				</div>
 					
 					<div class="panel-body">
+					<div class="list-group">
+						<a href="https://github.com/jcvno/binimg2pixmap" class="list-group-item">
+							<h4 class="list-group-item-heading">binimg2pixmap <span class="text-muted">C++ Program</span></h4>
+							<p class="list-group-item-text">A C++ program that takes in a binary image file (encoded as a byte stream) and converts it to an ASCII bitmap file.</p>
+						</a>
+					</div>
+
      					<div class="list-group">
      						<a href="https://github.com/jcvno/GPA-Calculator" class="list-group-item">
      							<h4 class="list-group-item-heading">GPA Calculator <span class="text-muted">Web App</span></h4>
