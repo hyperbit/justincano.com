@@ -133,29 +133,27 @@ a {text-decoration: underline; color: #fff;}
 .main section.page2 .content .about {
    color: white;
    position: relative;
+   font-size:1.25em;
+   font-family: 'Source Sans Pro', sans-serif; 
    text-align: center;
 }
 
 
 /* PAGE 3 */
 .main section.page3 {
-   background: white;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+   background: white url('http://studentlife.ucr.edu/images/school_spirit_bearlogo.png') no-repeat right bottom;
 }
 
 .main section.page3 .page_container {
   position: relative;
   top: 50%;
-  margin-top: -300px;
+  margin-top: -275px;
   left: 0;
   width: 100%;
 }
 
 .main section.page3 .content {
-   color: #616161;
+   color: #003D76;
    margin-left: auto;
    margin-right: auto;
    height: 280px;
