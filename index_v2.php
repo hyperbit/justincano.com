@@ -383,7 +383,8 @@
 
      	<!-- BEGIN FRIENDS -->
      	<div class="row featurette">
-     		<h2 class="featurette-heading" style="margin-top:20px;">Friends<br></h2>
+     		<h2 class="featurette-heading" style="margin-top:20px;">Friends<br>
+		<h3 class="text-muted" style="margin-top:0px;">Playing around with the Twitter REST API to retrieve their Twitter Profile Photos.</h3></h2>
 
      		<div class="col-lg-4">
      			<?php
