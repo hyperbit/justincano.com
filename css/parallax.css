@@ -7,6 +7,7 @@
 }
 #background {
 	z-index:1;
+	/* img found from http://www.superbwallpapers.com/space/messier-81-spiral-galaxy-1685/# */
 	background: url(../img/cover/galaxy.png);
 	background-size:   cover;
 }
