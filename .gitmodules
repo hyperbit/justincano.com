@@ -10,3 +10,6 @@
 [submodule "GPA-Calculator"]
 	path = GPA-Calculator
 	url = https://github.com/jcvno/GPA-Calculator.git
+[submodule "onepage-scroll"]
+	path = onepage-scroll
+	url = https://github.com/peachananr/onepage-scroll.git
