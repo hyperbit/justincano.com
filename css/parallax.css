@@ -1,0 +1,19 @@
+#background,#midground,#foreground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#background {
+	z-index:1;
+	background: url(http://css-tricks.com/examples/StarryNightCSS3/images/background.png);
+}
+#midground {
+	z-index: 2;
+	background: url(http://css-tricks.com/examples/StarryNightCSS3/images/midground.png);
+}
+#foreground {
+	z-index: 3;
+	background: url(http://css-tricks.com/examples/StarryNightCSS3/images/foreground.png);
+}

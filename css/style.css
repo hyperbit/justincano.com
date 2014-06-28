@@ -1,0 +1,85 @@
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+body {background: black; color: white}
+canvas {display: block;}
+
+a {color: #0F0;}
+
+.wrapper {
+   height: 100% !important;
+   height: 100%;
+   margin: 0 auto; 
+   overflow: hidden;
+}
+
+
+
+/* PAGE 1 */
+.main section.page1 {
+   background: -webkit-canvas(matrix);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.main section.page1 .page_container {
+  position: relative;
+  top: 50%;
+  margin-top: -160px;
+  left: 0;
+  width: 100%;
+}
+
+.main section.page1 .content {
+   color: #D6D6D6;
+   margin-left: auto;
+   margin-right: auto;
+   height: 280px;
+   text-align: center;
+   font-family: "Courier New", monospace;  
+   opacity: 0.75;
+   text-shadow: 1px 4px 6px #000, 0 0 0 #000, 1px 4px 6px #000;
+}
+
+.main section.page1 .content .heading {
+   -webkit-animation-delay: 1s; /* Safari and Chrome */
+    animation-delay: 1s;
+    font-size: 7em;
+    font-weight: bold;
+}
+
+.main section.page1 .content .desc {
+   -webkit-animation-delay: 2s; /* Safari and Chrome */
+    animation-delay: 2.5s;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+
+/* PAGE 2 */
+.main section.page2 {
+   background: black;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.main section.page2 .page_container {
+  position: relative;
+  top: 50%;
+  margin-top: -160px;
+  left: 0;
+  width: 100%;
+}
+
+.main section.page2 .content {
+   color: #D6D6D6;
+   margin-left: auto;
+   margin-right: auto;
+   height: 280px;
+   text-align: center;
+}
