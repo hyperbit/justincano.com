@@ -147,15 +147,172 @@ a {text-decoration: underline; color: #fff;}
 .main section.page3 .page_container {
   position: relative;
   top: 50%;
-  margin-top: -275px;
+  margin-top: -300px;
   left: 0;
   width: 100%;
 }
 
 .main section.page3 .content {
+   font-family: 'Source Sans Pro', sans-serif; 
    color: #003D76;
    margin-left: auto;
    margin-right: auto;
    height: 280px;
    width: 80%;
+}
+
+
+/* PAGE 4 */
+.main section.page4 {
+   background: #d9b346;
+}
+
+.main section.page4 .page_container {
+  position: relative;
+  top: 50%;
+  margin-top: -300px;
+  left: 0;
+  width: 100%;
+}
+
+.main section.page4 .content {
+   font-family: 'Source Sans Pro', sans-serif; 
+   color: #003D76;
+   margin-left: auto;
+   margin-right: auto;
+   height: 280px;
+   width: 80%;
+}
+
+.main section.page4 .header {
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Lobster', 'Source Sans Pro', sans-serif;
+}
+
+.projects {
+  margin-top: 75px;
+}
+
+.project {
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.project:hover {
+  opacity: .2;
+}
+
+.item .desc {
+  display: none;
+  position: relative;
+  font-size: 1.1em;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  width: 65%;
+  top: 35%;
+  text-align: center;
+}
+
+.item:hover .desc{
+  display:block;
+}
+
+.desc:hover + .project {
+  opacity: .3;
+}
+
+.modal {
+   color: #003D76;
+   overflow: scroll;
+}
+
+.align-center {
+  text-align: center;
+}
+
+/* soccer ball*/
+.soccer {
+  /*background: url(http://upload.wikimedia.org/wikipedia/en/e/ec/Soccer_ball.svg);*/
+  background: url(../img/soccer2.png);
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  -webkit-animation:roll 4.5s infinite;
+  -moz-animation:roll 4.5s infinite;
+  animation:roll 4.5s infinite;
+}
+
+@-moz-keyframes roll {  
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:90%; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+@-webkit-keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:90%; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+
+@keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:90%; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
+}
+
+.world-cup {
+  color: #17A10B;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: -2px 4px 0px #494E52;
+  margin-top: 50px;
+}
+.world-cup .o {
+  color: #D91C00;
+  -webkit-animation-delay: 0.05s;
+  animation-delay: 0.05s;
+}
+.world-cup .r {
+  color: #336099;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.world-cup .l {
+  color: white;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+.world-cup .d {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.world-cup .c {
+  color: #D91C00;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+.world-cup .u {
+  color: #336099;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.world-cup .p {
+  color: white;
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+}
+.world-cup .ex {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.world-cup .logo {
+  -webkit-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+  width: 80px;
+  height: 100px;
 }

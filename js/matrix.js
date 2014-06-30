@@ -1,10 +1,11 @@
+/* Matrix courtesy of thecodeplayer.com */
 var c = document.getElementById("matrix");
 c.width = window.innerWidth;
 c.height = window.innerHeight;
 var ctx = document.getCSSCanvasContext("2d", "matrix", c.width, c.height);
 
 //chinese characters - taken from the unicode charset
-var chinese = "田由甲申甴电甶男甸甹町画甼甽甾甿畀畁畂畃畄畅畆畇畈畉畊畋界畍畎畏畐畑";
+var chinese = "田由甲申甴电甶男甸甹町画甼甽甾甿畀畁畂畃畄畅畆畇畈畉畊畋界畍畎畏畐畑0123456789:!";
 //converting the string into an array of single characters
 chinese = chinese.split("");
 
@@ -18,7 +19,6 @@ for(var x = 0; x < columns; x++)
 	drops[x] = 1; 
 
 function draw() {
-	console.log("drawing")
 	//Black BG for the canvas
 	//translucent BG to show trail
 	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
