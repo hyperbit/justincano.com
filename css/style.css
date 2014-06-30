@@ -32,6 +32,7 @@ a {text-decoration: underline; color: #fff;}
 
 /* PAGE 1 */
 .main section.page1 {
+   background: -moz-element(#matrix);
    background: -webkit-canvas(matrix);
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -60,13 +61,15 @@ a {text-decoration: underline; color: #fff;}
 
 .main section.page1 .content .heading {
    -webkit-animation-delay: 1s; /* Safari and Chrome */
+   -moz-animation-delay: 1s; /* Firefox */
     animation-delay: 1s;
     font-size: 7em;
     font-weight: bold;
 }
 
 .main section.page1 .content .desc {
-   -webkit-animation-delay: 2s; /* Safari and Chrome */
+   -webkit-animation-delay: 2.5s; /* Safari and Chrome */
+   -moz-animation-delay: 2.5s; /* Firefox */
     animation-delay: 2.5s;
     font-size: 2.5em;
     font-weight: bold;
@@ -74,14 +77,16 @@ a {text-decoration: underline; color: #fff;}
 
 .main section.page1 .content .scroll {
    -webkit-animation-delay: 3s; /* Safari and Chrome */
+   -moz-animation-delay: 3s; /* Firefox */
     animation-delay: 3s;
     color: #fff;
     font-size: 1em;
 }
 
 .main section.page1 .content .resume {
-   -webkit-animation-delay: 5s; /* Safari and Chrome */
-    animation-delay: 5s;
+   -webkit-animation-delay: 4s; /* Safari and Chrome */
+   -moz-animation-delay: 4s; /* Firefox */
+    animation-delay: 4s;
     color: #fff;
     font-size: 1em;
 }
@@ -252,9 +257,9 @@ a {text-decoration: underline; color: #fff;}
 }
 
 @-moz-keyframes roll {  
-  0% {left:0px; -webkit-transform: rotate(-360deg);}
-  50% {left:90%; -webkit-transform: rotate(360deg);}
-  100% {left:0px; -webkit-transform: rotate(-360deg);}
+  0% {left:0px; -moz-transform: rotate(-360deg);}
+  50% {left:90%; -moz-transform: rotate(360deg);}
+  100% {left:0px; -moz-transform: rotate(-360deg);}
 }
 @-webkit-keyframes roll { 
   0% {left:0px; -webkit-transform: rotate(-360deg);}
@@ -263,9 +268,9 @@ a {text-decoration: underline; color: #fff;}
 }
 
 @keyframes roll { 
-  0% {left:0px; -webkit-transform: rotate(-360deg);}
-  50% {left:90%; -webkit-transform: rotate(360deg);}
-  100% {left:0px; -webkit-transform: rotate(-360deg);}
+  0% {left:0px; transform: rotate(-360deg);}
+  50% {left:90%; transform: rotate(360deg);}
+  100% {left:0px; transform: rotate(-360deg);}
 }
 
 .world-cup {
@@ -279,43 +284,52 @@ a {text-decoration: underline; color: #fff;}
 .world-cup .o {
   color: #D91C00;
   -webkit-animation-delay: 0.05s;
+  -moz-animation-delay: 0.05s;
   animation-delay: 0.05s;
 }
 .world-cup .r {
   color: #336099;
   -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 .world-cup .l {
   color: white;
   -webkit-animation-delay: 0.15s;
+  -moz-animation-delay: 0.15s;
   animation-delay: 0.15s;
 }
 .world-cup .d {
   -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 .world-cup .c {
   color: #D91C00;
   -webkit-animation-delay: 0.25s;
+  -moz-animation-delay: 0.25s;
   animation-delay: 0.25s;
 }
 .world-cup .u {
   color: #336099;
   -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 .world-cup .p {
   color: white;
   -webkit-animation-delay: 0.35s;
+  -moz-animation-delay: 0.35s;
   animation-delay: 0.35s;
 }
 .world-cup .ex {
   -webkit-animation-delay: 0.4s;
+  -mov-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 .world-cup .logo {
   -webkit-animation-delay: 0.45s;
+  -moz-animation-delay: 0.45s;
   animation-delay: 0.45s;
   width: 80px;
   height: 100px;
